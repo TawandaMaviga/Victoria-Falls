@@ -1,81 +1,72 @@
-td {
-    display: table-cell;
-    vertical-align: inherit;
-}
-style attribute {
-    border-collapse: collapse;
-}
-table {
-    color: inherit;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+  }
+  
+  header {
+    background-color: rgba(7, 13, 15, 0.551);
+    padding: 20px;
+  }
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
     margin: 0;
-}
-img Attributes Style {
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    height: 622px;
-    aspect-ratio: auto 750 / 622;
-    width: 750px;
-}
-img Attributes Style {
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    height: 261px;
-    aspect-ratio: auto 750 / 261;
-    width: 750px;
-}
-img Attributes Style {
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    height: 498px;
-    aspect-ratio: auto 750 / 498;
-    width: 750px;
-}
-background {
-    color: aquamarine;
-}
-#menu {
-position:fixed;
-top: 0;
-}
-#What is Mosi-oa-Tunya {
-    background-color: aquamarine;
-}
-#Who named it Victoria-Falls and why {
-    background-color: aquamarine;
-}
-#Interesting facts about Victoria-Falls/Mosi-oa-Tunya {
-    background-color: aquamarine;
-}
-#Pre-Colonial History {
-    background-color: aquamarine;
-}
-#Colonial History of the Falls{
-    background-color: aquamarine;
-}
-#Best times to visit {
-    background-color: aquamarine;
-}
-#Entrance Fees {
-    background-color: aquamarine;
-}
-#Open Times {
-    background-color: aquamarine;
-}
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  nav li {
+    margin: 5px 0; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white; 
+    padding: 10px; 
+  }
+  
+  nav a:hover {
+    color: #ccc; 
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+  
+  img {
+    max-width: 100%; 
+    display: block; 
+    margin-bottom: 10px;
+  }
